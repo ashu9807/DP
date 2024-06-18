@@ -67,13 +67,13 @@ public:
    }
 
     int fib(int n) {
-        // int ans = recSolve(n);
-        // return ans;
+        int ans = recSolve(n);
+        return ans;
 
-        //step1: create dp array
-        // vector<int> dp(n+1, -1);
-        // int ans = topDownSolve(n, dp);
-        // return ans;
+        step1: create dp array
+        vector<int> dp(n+1, -1);
+        int ans = topDownSolve(n, dp);
+        return ans;
 
         return spaceOptSOlve(n);
 
